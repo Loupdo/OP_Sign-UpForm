@@ -1,0 +1,106 @@
+.body{
+    display: flex;
+}
+
+.image{
+    display: flex;
+}
+
+img{
+    height: 100vh;
+    width: 25vw;
+    object-fit: cover;
+}
+
+.overimage{
+    color: white;
+    background-color:black;
+    width: 25%;
+    font-size: 40px;
+    opacity:0.5;
+    position:fixed;
+    top: 27%;
+    justify-items: center;
+    text-align: center;
+}
+
+.photographer{
+    color: white;
+    position: absolute;
+    bottom:2px;
+    left: 7%;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+}
+
+.column2{
+    height: 100vh;
+    align-items: center;
+    margin: auto 0px;
+    background-color: rgb(221, 221, 221); 
+}
+.column2:before{
+    background-color: rgb(221, 221, 221);
+}
+
+.description{
+    font-size: 32px;
+    margin:0 0 20px 0;
+    align-items: flex-end;
+    padding: 0 2%;
+}
+
+.top{
+    margin-top:12% ;
+}
+
+label{
+    font-size: 20px;
+}
+
+button{
+    background-color: green;
+    border-radius: 15px;
+    padding: 15px 45px;
+    border: green;
+    color: white;
+    font-weight: 800;
+    font-size: 25 px;
+    margin-left:12%;
+}
+
+.inline{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    justify-content: center;
+}
+
+input{
+    font-size: 28px;
+    width:300px;
+    background-color: white;
+}
+
+a{
+    color: green;
+}
+
+.already{
+    margin-left:11.5%;
+}
+
+form{
+    justify-content: center;
+    margin-bottom: 40px;
+    background-color: white;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+#password:invalid, #cfrmpassword:invalid{
+    border: 2px solid red;
+}
